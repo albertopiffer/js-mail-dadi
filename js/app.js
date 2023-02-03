@@ -5,7 +5,7 @@
 //creo un ciclo che scansiona tutto l'array confrontando la mail ottenuta col prompt co ogni elemento ed eventualmente modificando il valore di check a 1
 //stampo un messaggio positivo se check = 1, negativo se check = 0
 
-const mailList = [
+const mailList = [ //ho usato un generatore di nomi italiani + @gmail.com
     'PasqualinaMazzanti@gmalil.com',
     'PalmiraPalermo@gmalil.com',
     'PlacidoPiccio@gmalil.com',
