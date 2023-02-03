@@ -1,5 +1,10 @@
 //MAIL
 
+//creo array di mail
+//creo una variabile check = 0 per aiutarmi nel controllo successivo
+//creo un ciclo che scansiona tutto l'array confrontando la mail ottenuta col prompt co ogni elemento ed eventualmente modificando il valore di check a 1
+//stampo un messaggio positivo se check = 1, negativo se check = 0
+
 const mailList = [
     'PasqualinaMazzanti@gmalil.com',
     'PalmiraPalermo@gmalil.com',
@@ -40,6 +45,10 @@ else {
 }
 
 //DADI
+
+//creo due variabili intere contenenti un int random <=6
+//le confronto in un if e stabilisco qual'è la maggiore decretando il vincitore
+//aggiungo una verifica per il pareggio
 
 let dadoGiocatore = parseInt (Math.floor(Math.random() * 6) + 1)
 console.log(dadoGiocatore)
