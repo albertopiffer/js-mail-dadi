@@ -1,3 +1,5 @@
+//MAIL
+
 const mailList = [
     'PasqualinaMazzanti@gmalil.com',
     'PalmiraPalermo@gmalil.com',
@@ -35,4 +37,20 @@ if (check == 1) {
 }
 else {
     console.log('Mail non verificata')
+}
+
+//DADI
+
+let dadoGiocatore = parseInt (Math.floor(Math.random() * 6) + 1)
+console.log(dadoGiocatore)
+
+let dadoComputer = parseInt (Math.floor(Math.random() * 6) + 1)
+console.log(dadoComputer)
+
+if (dadoGiocatore == dadoComputer) {
+    console.log('pareggio')
+}
+else {
+    if (dadoGiocatore > dadoComputer) { console.log('giocatore vince') }
+    if (dadoGiocatore < dadoComputer) { console.log('computer vince') }
 }
